@@ -21,8 +21,8 @@ export default defineConfig({
   envPrefix: ['BRIEFING_', 'APP_', 'VITE_'],
   plugins: [vue()],
   server: {
-		allowedHosts: ['briefing-x004.onrender.com'],
-	}
+		allowedHosts: true
+	},
   define,
   build: {
     outDir: 'www',
